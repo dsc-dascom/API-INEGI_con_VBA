@@ -20,5 +20,12 @@ Este proyecto está diseñado para apoyar en la consulta recurrente de informaci
 ---
 
 
+## **Uso de Module1**
+
+En el archvio _Module1.bas_ se puede encontrar el Módulo de VBA que contiene el código para utilizar la API de INEGI. 
+
+Para poder usar el código es necesario pegar el Token al inicio del código. Más especificamente, en la linea donde declaro la variable _Public Const_, se debe pegar el Token que se obtiene de la página del INEGI entre las dobles comillas. 
+
+---
 
 
