@@ -2,7 +2,7 @@
 
 # **API-INEGI**
 
-Este proyecto está diseñado para apoyar en la consulta recurrente de información económica de INEGI. Para lograr esto, se usa la herramienta de API que INEGI proporciona a los usuarios. Para mantener todo el proceso de tratamiento de la información en un ambiente conocido para la mayoría de personas, este programa está hecho en VBA. Con lo anterior intentó mantener el proceso de consulta y análisis de datos dentro de Excel.
+Este proyecto está diseñado para apoyar en la consulta recurrente de información económica de INEGI. Para lograr esto, se usa la API que INEGI proporciona a los usuarios. Para mantener todo el proceso de tratamiento de la información en un ambiente conocido para la mayoría de personas, este programa está hecho en VBA. Con lo anterior intento mantener el proceso de consulta y análisis de datos dentro de Excel.
 
 
 
