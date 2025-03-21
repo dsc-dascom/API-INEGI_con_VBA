@@ -12,7 +12,7 @@ Este proyecto está diseñado para apoyar en la consulta recurrente de informaci
 ---
 
 ## **Documentación**
-- Recomiendo revisar la página de INEGI que explica aspectos releventes de su API, como parametros de la consulta de infomración: https://www.inegi.org.mx/servicios/api_indicadores.html
+- Recomiendo revisar la página de INEGI que explica aspectos releventes de su API, como parámetros de la consulta: https://www.inegi.org.mx/servicios/api_indicadores.html
 
 - De igual forma, en el siguiente link se puede solicitar el Token: https://www.inegi.org.mx/app/desarrolladores/generatoken/Usuarios/token_Verify
 
