@@ -16,7 +16,7 @@ Este proyecto está diseñado para apoyar en la consulta recurrente de informaci
 
 - De igual forma, en el siguiente link se puede solicitar el Token: https://www.inegi.org.mx/app/desarrolladores/generatoken/Usuarios/token_Verify
 
-- Durante el desarrollo del código se utiliza el objeto MSXML2 para trabajar con los datos en formato XML. Para más información se puede consultar la siguiente página: [DOMDocument](https://learn.microsoft.com/en-us/previous-versions/windows/desktop/ms766564(v=vs.85)) y [ServerXMLHTTP](https://learn.microsoft.com/en-us/previous-versions/windows/desktop/ms762278(v=vs.85)).
+- Durante el desarrollo del código se utiliza el objeto MSXML2 para trabajar con los datos en formato XML. Para más información se puede consultar las siguientes páginas: [DOMDocument](https://learn.microsoft.com/en-us/previous-versions/windows/desktop/ms766564(v=vs.85)) y [ServerXMLHTTP](https://learn.microsoft.com/en-us/previous-versions/windows/desktop/ms762278(v=vs.85)).
   
 ---
 
