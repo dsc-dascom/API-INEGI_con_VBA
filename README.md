@@ -11,12 +11,13 @@ Este proyecto está diseñado para apoyar en la consulta recurrente de informaci
 
 ---
 
-## **Información relevante**
-- Recomiendo revisar la página de INEGI que explica todos los aspectos releventes de su API: https://www.inegi.org.mx/servicios/api_indicadores.html
+## **Documentación**
+- Recomiendo revisar la página de INEGI que explica aspectos releventes de su API, como parametros de la consulta de infomración: https://www.inegi.org.mx/servicios/api_indicadores.html
 
 - De igual forma, en el siguiente link se puede solicitar el Token: https://www.inegi.org.mx/app/desarrolladores/generatoken/Usuarios/token_Verify
 
-
+- Durante el desarrollo del código se utiliza el objeto MSXML2 para trabajar con los datos en formato XML. Para más información se puede consultar la siguiente página: [DOMDocument](https://learn.microsoft.com/en-us/previous-versions/windows/desktop/ms766564(v=vs.85)) y [ServerXMLHTTP](https://learn.microsoft.com/en-us/previous-versions/windows/desktop/ms762278(v=vs.85)).
+  
 ---
 
 
@@ -24,7 +25,7 @@ Este proyecto está diseñado para apoyar en la consulta recurrente de informaci
 
 En el archivo _Module1.bas_ se puede encontrar el Módulo de VBA que contiene el código para utilizar la API de INEGI. 
 
-Para poder usar el código es necesario pegar el Token al inicio del código. Más específicamente, en la línea donde se declara la variable _inegi_token_, se debe pegar el Token que se obtiene de la página del INEGI.
+Para poder usar el código es necesario pegar el Token al inicio del código. Específicamente, en la línea donde se declara la variable _inegi_token_ se debe pegar el Token que se obtiene de la página del INEGI.
 
 ---
 
