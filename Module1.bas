@@ -24,10 +24,10 @@ Function API_INEGI(clave)
     'verificamos el contenido de la respuesta
     'MsgBox solicitud.responseText
 
-    'filtramos la repuesta y la guardamos como el resultado de la funcion 
+    'filtramos la respuesta y la guardamos como el resultado de la funcion 
     Set API_INEGI = respuesta.getElementsByTagName("Observation")
     
-    'borramos los datos guardadados en la solicitud y repuesta
+    'borramos los datos guardados en la solicitud y repuesta
     Set solicitud = Nothing
     Set respuesta = Nothing
 
@@ -35,7 +35,7 @@ End Function
 
 Sub pib()
 
-'esta macro usa la Clave "735904" de INEGI para obtener los datos de variacion % del pib
+'esta macro usa la clave "735904" de INEGI para obtener los datos de variacion % del PIB
 clave = 735904
 
 'llamamos a la funcion
