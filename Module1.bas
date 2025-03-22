@@ -7,13 +7,13 @@ Function API_INEGI(clave)
 
     'esta funcion ejecuta la peticion de data mediante la API
 
-    'url de consulta, revisar los parametros en la pág. de INEGI
+    'url de consulta, revisar los parametros en la pagina de API-INEGI
     url = "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/" & clave & "/es/0700/false/BIE/2.0/" & inegi_token & "?type=xml"
 
-    'objeto para establecer conexion
+    'declaramos el objeto para hacer la conexion
     Set solicitud = CreateObject("MSXML2.ServerXMLHTTP")
     
-    'establecemos el objeto para realizar la conexion
+    'realizamos la peticion de la informacion
     solicitud.Open "GET", url, False
     solicitud.Send
 
@@ -21,10 +21,10 @@ Function API_INEGI(clave)
     Set respuesta = CreateObject("MSXML2.DOMDocument")
     respuesta.LoadXML solicitud.responseText
     
-    'verificamos los datos de repuesta
+    'verificamos el contenido de la respuesta
     'MsgBox solicitud.responseText
 
-    'establecemos que la infomacion obtenida sea el resultado de la funcion
+    'filtramos la repuesta y la guardamos como el resultado de la funcion 
     Set API_INEGI = respuesta.getElementsByTagName("Observation")
     
     'borramos los datos guardadados en la solicitud y repuesta
