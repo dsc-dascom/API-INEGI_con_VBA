@@ -17,7 +17,7 @@ Este proyecto está diseñado para apoyar en la consulta recurrente de informaci
 
 - Por último, aclaro que personalmente prefiero usar la página del [BIE de INEGI](https://www.inegi.org.mx/app/indicadores/default.aspx?tm=0) para buscar la información y obtener las claves (identificadores) de los datos. 
 
-- Durante el desarrollo del código se utiliza el objeto MSXML2 para trabajar con los datos en formato XML. Para más información se puede consultar las siguientes páginas: [DOMDocument](https://learn.microsoft.com/en-us/previous-versions/windows/desktop/ms766564(v=vs.85)) y [ServerXMLHTTP](https://learn.microsoft.com/en-us/previous-versions/windows/desktop/ms762278(v=vs.85)).
+- Durante el desarrollo del código se utiliza el objeto MSXML2 para trabajar con los datos en formato XML. Para más información se puede consultar las siguientes páginas: [ServerXMLHTTP](https://learn.microsoft.com/en-us/previous-versions/windows/desktop/ms762278(v=vs.85)) y [DOMDocument](https://learn.microsoft.com/en-us/previous-versions/windows/desktop/ms757828(v=vs.85)).
   
 ---
 
