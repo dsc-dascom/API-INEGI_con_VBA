@@ -10,7 +10,7 @@ Este proyecto está diseñado para apoyar en la consulta recurrente de informaci
 
 ---
 
-## **Documentación**
+## **Documentación**   :open_file_folder:
 - Recomiendo revisar la página de INEGI que explica aspectos relevantes de su API, como parámetros de la consulta: https://www.inegi.org.mx/servicios/api_indicadores.html
 
 - De igual forma, en el siguiente link directo se puede solicitar el **Token**: https://www.inegi.org.mx/app/desarrolladores/generatoken/Usuarios/token_Verify
@@ -22,7 +22,7 @@ Este proyecto está diseñado para apoyar en la consulta recurrente de informaci
 ---
 
 
-## **Uso de Module1**
+## **Uso de Module1**    :package:
 
 En el archivo **Module1.bas** se puede encontrar el Módulo de VBA que contiene el código para utilizar la API de INEGI. 
 
@@ -56,7 +56,7 @@ Todo depende de las necesidades del proyecto o de las especificaciones de los us
 
 ---
 
-## Objetivos de este proyecto
+## Objetivos de este proyecto   :seedling:
 
 - Optimizar y automatizar la consulta de información que publica periódicamente INEGI.
   
