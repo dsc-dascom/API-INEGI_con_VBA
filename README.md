@@ -62,7 +62,9 @@ Para conocer la _"clave"_ de los datos pueden apoyarse del [Constructor de Consu
 
 Por lo tanto, una vez declarado el **Token** y la _clave_ dentro del código, se puede consultar la información usando la API de INEGI. Recomiendo que asignen a un botón la subrutina (macro) para tener un control desde Excel.
 
-<p align="center"> <img src="https://github.com/user-attachments/assets/159e8a53-5339-4cd5-b5c5-85c87081cd42" alt="ejemplo2" width="650"> </p>
+<p align="center"> <img src="https://github.com/user-attachments/assets/159e8a53-5339-4cd5-b5c5-85c87081cd42" alt="ejemplo2" width="800"> </p>
+
+<br>
 
 La lógica del código permite aumentar el número de consultas al declarar una lista con claves que junto con un ciclo for permitirá realizar varias consultas de información.
 
