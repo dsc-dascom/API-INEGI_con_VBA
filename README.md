@@ -98,5 +98,13 @@ Espero que de esta forma puedan aclararse algunas dudas sobre cómo cargar el **
 
 De igual forma, cualquier comentario, pregunta o sugerencia son bien recibidas para mejorar el contenido de este proyecto. 
 
+<br>
 
+<p align="center"> <img src="https://github.com/user-attachments/assets/ea03e075-5617-4d87-a1a1-09d49854da74" alt="yt_canal" width="400"> </p>
+
+<br>
+
+<p align="center"> <img src="https://github.com/user-attachments/assets/b944e977-6ca1-44e5-b7b5-631e19a4f4ba" alt="linkedin_page" width="400"> </p>
+
+<br>
 
