@@ -11,7 +11,7 @@ Este proyecto está diseñado para apoyar en la consulta recurrente de informaci
 ---
 
 ## **Documentación**   :open_file_folder:
-- Recomiendo revisar la página de INEGI que explica aspectos relevantes de su API, como parámetros de la consulta: https://www.inegi.org.mx/servicios/api_indicadores.html
+- Recomiendo revisar la página de INEGI que explica aspectos relevantes de su API, como los parámetros de la consulta: https://www.inegi.org.mx/servicios/api_indicadores.html
 
 - De igual forma, en el siguiente link directo se puede solicitar el **Token**: https://www.inegi.org.mx/app/desarrolladores/generatoken/Usuarios/token_Verify
 
@@ -93,18 +93,26 @@ Todo depende de las necesidades del proyecto o de las especificaciones de los us
 
 ## Video de apoyo   :computer:
 
-Como una explicación adicional, he subido un video a YouTube en el que explico [cómo usar el código](https://youtu.be/NmETG6jiF0Y) para obtener información económica de INEGI a través  de su API. 
+Como una explicación adicional, he subido un video a YouTube en el que platico [cómo usar el código en VBA](https://youtu.be/NmETG6jiF0Y) para obtener información económica de INEGI a través  de su API. 
 Espero que de esta forma puedan aclararse algunas dudas sobre cómo cargar el **Module1.bas** así como dónde se deben declarar las variables.
 
-De igual forma, cualquier comentario, pregunta o sugerencia son bien recibidas para mejorar el contenido de este proyecto. 
+cualquier comentario, pregunta o sugerencia son bien recibidas para mejorar el contenido de este proyecto. 
 
 <br>
 
-<p align="center"> <img src="https://github.com/user-attachments/assets/ea03e075-5617-4d87-a1a1-09d49854da74" alt="yt_canal" width="400"> </p>
+<p align="center">
+  <a href="https://www.youtube.com/@dsc-econ">
+    <img src="https://github.com/user-attachments/assets/ea03e075-5617-4d87-a1a1-09d49854da74" alt="yt_canal" width="400">
+  </a>
+</p>
 
 <br>
 
-<p align="center"> <img src="https://github.com/user-attachments/assets/b944e977-6ca1-44e5-b7b5-631e19a4f4ba" alt="linkedin_page" width="400"> </p>
+<p align="center">
+  <a href="https://www.linkedin.com/in/daniel-salmoran">
+    <img src="https://github.com/user-attachments/assets/b944e977-6ca1-44e5-b7b5-631e19a4f4ba" alt="linkedin_page" width="400">
+  </a>
+</p>
 
 <br>
 
