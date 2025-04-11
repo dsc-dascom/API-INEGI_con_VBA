@@ -96,7 +96,7 @@ Todo depende de las necesidades del proyecto o de las especificaciones de los us
 Como una explicación adicional, he subido un video a YouTube en el que platico [cómo usar el código en VBA](https://youtu.be/NmETG6jiF0Y) para obtener información económica de INEGI a través de su API. 
 Espero que de esta forma puedan aclararse algunas dudas sobre cómo cargar el **Module1.bas** así como dónde se deben declarar las variables.
 
-cualquier comentario, pregunta o sugerencia son bien recibidas para mejorar el contenido de este proyecto. 
+Cualquier comentario, pregunta o sugerencia son bien recibidas para mejorar el contenido de este proyecto. 
 
 <br>
 
