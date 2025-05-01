@@ -23,8 +23,8 @@ Este proyecto está diseñado para apoyar en la consulta recurrente de informaci
 
 **IMPORTANTE:** para poder trabajar con los objetos que se declaran en el código, es indispensable habilitar la referencia **Microsoft XML, v6.0** de la pestaña de herramientas (Tools) dentro de VBA.
 
-<p align="center"> <img src="https://github.com/user-attachments/assets/72cf2a48-960e-49d3-90e2-7cd54db54320" alt="ejemplo2" width="650"> </p>
-<p align="center"> <img src="https://github.com/user-attachments/assets/81b02e24-eb84-4602-be7f-b535f4ad26ec" alt="ejemplo2" width="400"> </p>
+<p align="center"> <img src="https://github.com/user-attachments/assets/72cf2a48-960e-49d3-90e2-7cd54db54320" alt="imagen1" width="650"> </p>
+<p align="center"> <img src="https://github.com/user-attachments/assets/81b02e24-eb84-4602-be7f-b535f4ad26ec" alt="imagen2" width="400"> </p>
 
 
 ---
@@ -41,7 +41,7 @@ Este código se puede dividir en tres secciones.
       Private Const inegi_token As String = "[Token]"
 
 El **Token** lo pueden generar ingresando en el segundo link en la documentación. Una vez que ingresen a la página deben introducir un correo electrónico en el que INEGI enviará el **Token**.
-<p align="center"> <img src="https://github.com/user-attachments/assets/9525cb45-0346-4eaf-af80-f10cdaf3f81e" alt="ejemplo2" width="650"> </p>
+<p align="center"> <img src="https://github.com/user-attachments/assets/9525cb45-0346-4eaf-af80-f10cdaf3f81e" alt="imagen3" width="650"> </p>
 
 <br>
 
@@ -56,13 +56,13 @@ El **Token** lo pueden generar ingresando en el segundo link en la documentació
 
 Para conocer la _"clave"_ de los datos pueden apoyarse del [Constructor de Consultas](https://www.inegi.org.mx/servicios/api_indicadores.html) de la página de la API de INEGI o pueden acceder a la pestaña de Metadados al revisar los indicadores directamente del [BIE](https://www.inegi.org.mx/app/indicadores/default.aspx?tm=0#D735904_1000024201150120):
 
-<p align="center"> <img src="https://github.com/user-attachments/assets/c0a12687-a2c3-4dd3-9b3a-f911d94e1e81" alt="ejemplo2" width="650"> </p>
+<p align="center"> <img src="https://github.com/user-attachments/assets/c0a12687-a2c3-4dd3-9b3a-f911d94e1e81" alt="imagen4" width="650"> </p>
 
 <br>
 
 Por lo tanto, una vez declarado el **Token** y la _clave_ dentro del código, se puede consultar la información usando la API de INEGI. Recomiendo que asignen a un botón la subrutina (macro) para tener un control desde Excel.
 
-<p align="center"> <img src="https://github.com/user-attachments/assets/159e8a53-5339-4cd5-b5c5-85c87081cd42" alt="ejemplo2" width="800"> </p>
+<p align="center"> <img src="https://github.com/user-attachments/assets/159e8a53-5339-4cd5-b5c5-85c87081cd42" alt="imagen5" width="800"> </p>
 
 <br>
 
@@ -70,10 +70,10 @@ La lógica del código permite aumentar el número de consultas al declarar una 
 
 También es posible crear varias subrutinas que se pueden ejecutar en distintas hojas de Excel. Se puede insertar un botón con la macro asignada y realizar las consultas repetidas veces.
 
-<p align="center"> <img src="https://github.com/user-attachments/assets/76976700-d78c-4adb-879f-e04c27b9234a" alt="ejemplo1" width="400"> </p>
+<p align="center"> <img src="https://github.com/user-attachments/assets/76976700-d78c-4adb-879f-e04c27b9234a" alt="imagen6" width="400"> </p>
 <br>
 
-<p align="center"> <img src="https://github.com/user-attachments/assets/3b56d5e4-6913-4c93-881c-00911e303815" alt="ejemplo2" width="400"> </p>
+<p align="center"> <img src="https://github.com/user-attachments/assets/3b56d5e4-6913-4c93-881c-00911e303815" alt="imagen7" width="400"> </p>
 <br>
 
 
