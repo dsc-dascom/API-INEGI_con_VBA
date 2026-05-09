@@ -5,8 +5,10 @@
 Este proyecto está diseñado para apoyar en la consulta recurrente de información económica de INEGI. Para lograr esto, se usa la API que INEGI proporciona a los usuarios. Este programa está hecho en VBA porque pretendo que todo el proceso de recolección, tratamiento, análisis y presentación de datos se realice dentro de un ambiente conocido por la mayoría de usuarios: Excel.
 
 
+<br>
 
-NOTA (9 de mayo de 2026): Hubo una actualización en la forma de hacer las peticiones a la API de INEGI. Únicamente se tiene que verificar que la URL con el que se hace la consulta al inicio del código en VBA sea:  
+NOTA (9 de mayo de 2026)
+Hubo una actualización en la forma de hacer las peticiones a la API de INEGI. Únicamente se tiene que verificar que la URL con el que se hace la consulta al inicio del código en VBA sea:  
 url = "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/" & clave & "/es/00/false/BIE-BISE/2.0/" & inegi_token & "?type=xml"
 
 Ruta anterior: 
@@ -14,6 +16,8 @@ Ruta anterior:
 
 Ruta nueva: 
 /es/00/false/BIE-BISE/2.0/
+
+<br>
 
 ---
 
