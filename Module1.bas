@@ -8,7 +8,7 @@ Function API_INEGI(clave)
     'esta funcion ejecuta la peticion de data mediante la API
 
     'url de consulta, revisar los parametros en la pagina de API-INEGI
-    url = "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/" & clave & "/es/0700/false/BIE/2.0/" & inegi_token & "?type=xml"
+    url = "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/" & clave & "/es/00/false/BIE-BISE/2.0/" & inegi_token & "?type=xml"
 
     'declaramos el objeto para hacer la conexion
     Set solicitud = CreateObject("MSXML2.ServerXMLHTTP")
