@@ -7,7 +7,7 @@ Este proyecto está diseñado para apoyar en la consulta recurrente de informaci
 
 <br>
 
-NOTA (9 de mayo de 2026)
+NOTA (9 de mayo de 2026) <br>
 Hubo una actualización en la forma de hacer las peticiones a la API de INEGI. Únicamente se tiene que verificar que la URL con el que se hace la consulta al inicio del código en VBA sea:  
 url = "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/" & clave & "/es/00/false/BIE-BISE/2.0/" & inegi_token & "?type=xml"
 
